@@ -1,0 +1,56 @@
+.Shapely{
+    text-align: center;
+}
+#Shapely{
+    font-size: 30px;
+    color: rgb(95, 100, 100);
+}
+.sectionhead{
+    background-image: url(/brainhd1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 1px solid white;
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    margin: 15% 30%;
+    justify-content: center;
+    align-items: center;
+}
+.section h1, p{
+    color: ivory;
+    font-style: verdana;
+}
+.section h1{
+    font-size: 45px;
+    font-weight: 100;
+}
+.buttonread{
+    background-color: rgb(69, 69, 172) ;
+    color: mintcream;
+    font-weight: 500;
+    border: 0px;
+    width: 201px;
+    height: 61px;
+}
+.buttonread:hover{
+    background-color:midnightblue;
+}
+.buttondownload{
+    border: 2px solid white;
+    background: none;
+    color: mintcream;
+    font-weight: 500;
+    width: 200px;
+    height: 60px;
+}
+.buttondownload:hover{
+    background: whitesmoke;
+    color: black;
+    font-weight: 500;
+
+}

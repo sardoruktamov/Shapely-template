@@ -1,0 +1,11 @@
+@media screen and (max-width: 680px) {
+    #mobil6{
+        display: flex;
+        flex-direction: column;
+    }
+    #mobil-right{
+        display: none;
+    }
+    
+
+}

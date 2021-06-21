@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px) {
+    /* #mobil6{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } */
+    #mobil-right{
+        display: none;
+    }
+    #coll-6{
+        display: flex;
+        flex-direction: column;
+    }
+ 
+}
+/* @media (min-width: 510px) and (max-width: 999px) { 
+    #coll-6{
+        display: flex;
+        flex-direction: column;
+    }
+ }
+ @media (min-width: 656px) and (max-width: 999px) { 
+    #coll-6{
+        display: flex;
+        flex-direction: row;
+    }
+ } */

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3-DARS</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/blog.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/shop.css">
+  <link rel="stylesheet" href="css/media css/shopmedia.css">
+</head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="col-lg-6 Shapely">
+        <a class="navbar-brand" id="Shapely" href="#">Shapely Demo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="aboutthetests.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              ABOUT THE TESTS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="aboutthetests.html">Page image alignment</a>
+              <a class="dropdown-item" href="#">Page markup and formating</a>
+              <a class="dropdown-item" href="#">Clearing floats</a>
+              <a class="dropdown-item" href="#">Page width comments</a>
+
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="level.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              LAVEL 1
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item dropdown-toggle" href="level.html">Lavel 2</a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="dropdown-item" href="#">Level 3</a>
+                <a class="dropdown-item" href="#">Level 3a</a>
+                <a class="dropdown-item" href="#">Level 3b</a>
+              </div>
+
+              <a class="dropdown-item" href="level.html">Lavel 2a</a>
+              <a class="dropdown-item" href="#">Lavel 2b</a>
+
+            </div>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="shop.html" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              SHOP
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="shop.html">Lavel 2a</a>
+              <a class="dropdown-item" href="#">Lavel 2b</a>
+
+            </div>
+          </li>
+
+        </ul>
+        <!-- Side Modal Top Right -->
+
+        <!-- Button trigger modal -->
+        <button id="search" type="button" class="btn btn-primary" data-toggle="modal" data-target="#sideModalTR">
+          Search
+        </button>
+
+        <!-- To change the direction of the modal animation change .right class -->
+        <div class="modal fade right" id="sideModalTR" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+          aria-hidden="true">
+
+          <!-- Add class .modal-side and then add class .modal-top-right (or other classes from list above) to set a position to the modal -->
+          <div class="modal-dialog modal-side modal-top-right" role="document">
+
+
+            <div id="modall" class="modal-content right">
+              <div class="modal-header">
+                <h4 class="modal-title w-100" id="myModalLabel">Ma`lumot kiriting</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-footer">
+                <input type="text" class="">
+                <button type="button" data-dismiss="modal" class="btn btn-primary">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Side Modal Top Right -->
+        <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+      </div>
+    </nav>
+  </header>
+  <div class="container-fluid blog">
+    <h2>Archives: Products
+    </h2>
+  </div>
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-8">
+              <h1>Shop</h1>
+              <div class="col-12">
+                <div class="row" id="mobil6">
+                      <div class="col-10">
+                          <p style="color: rgb(105, 105, 100);">Showing 1–16 of 23 results</p>
+                      </div>
+                      <div class="col-2">
+                          <select name="" id="defoult">
+                              <option value="">Defoult sorting</option>
+                              <option value="">Sort by popularity</option>
+                              <option value="">Sort by average ratign</option>
+                              <option value=""></option>
+                          </select>
+                      </div>
+                </div>
+                  <div class="row" id="mobil6">
+                    <div class="col-12">
+                      <div id="shop-img" class="row" >
+                        
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                              <img src="img/shop/1.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title" id="card-title">Flying Ninja</h5>
+                                <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                                <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                            <img src="img/shop/2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" id="card-title">Happy Ninja</h5>
+                              <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                              <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                            <img src="img/shop/3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" id="card-title">Happy Ninja</h5>
+                              <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                              <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                            <img src="img/shop/4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" id="card-title">Flying Ninja</h5>
+                              <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                              <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                      
+                      </div>
+                      <div id="shop-img" class="row">
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                              <img src="img/shop/1.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title" id="card-title">Flying Ninja</h5>
+                                <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                                <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                            <img src="img/shop/2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" id="card-title">Happy Ninja</h5>
+                              <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                              <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                            <img src="img/shop/3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" id="card-title">Happy Ninja</h5>
+                              <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                              <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                            <img src="img/shop/4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" id="card-title">Flying Ninja</h5>
+                              <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                              <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="shop-img" class="row">
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                              <img src="img/shop/1.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title" id="card-title">Flying Ninja</h5>
+                                <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                                <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                            <img src="img/shop/2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" id="card-title">Happy Ninja</h5>
+                              <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                              <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                            <img src="img/shop/3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" id="card-title">Happy Ninja</h5>
+                              <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                              <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                            <img src="img/shop/4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" id="card-title">Flying Ninja</h5>
+                              <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                              <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="shop-img" class="row">
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                              <img src="img/shop/5.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title" id="card-title">Flying Ninja</h5>
+                                <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                                <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                            <img src="img/shop/6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" id="card-title">Happy Ninja</h5>
+                              <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                              <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                            <img src="img/shop/7.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" id="card-title">Happy Ninja</h5>
+                              <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                              <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-3" id="shop-left">
+                          <div class="card" style="width: 12rem;">
+                            <img src="img/shop/8.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" id="card-title">Flying Ninja</h5>
+                              <div class="row" ><p id="shop-p" style="text-decoration: line-through;">£15.00 </p>&nbsp;<p id="shop-p">£12.00</p></div> 
+                              <a href="#" class="btn" id="btn-shop" >Go somewhere</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-4" id="mobil-right">
+              <h3>Cart</h3>
+              <p style="color: #9c9da3;">No products in the cart</p>
+              <div class="rdbutton">
+                <button class="buttonread" style="width: 250px; height: 50px;">FILTR</button>
+              </div>
+
+          </div>
+      </div>
+  </div>
+
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-6">
+        <div class="row">
+          <h4>Theme by Colorlib Powered by WordPress</h4>
+        </div>
+      </div>
+      <div class="col-6" id="foot-logo">
+        <div class="foot-logo">
+          <a href="https://facebook.com/"><img src="img/footer/logo/facebook.png" alt=""></a>
+          <a href="https://twitter.com/"><img src="img/footer/logo/tvitter.png" alt=""></a>
+          <a href="https://linkedin.com/"><img src="img/footer/logo/linkedin.png" alt=""></a>
+          <a href="https://youtube.com/"><img src="img/footer/logo/youtube.png" alt=""></a>
+          <a href="https://instagram.com/"><img src="img/footer/logo/instagram.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popover.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home page</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/media css/indexmedia.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="col-lg-6 Shapely">
+        <a class="navbar-brand" id="Shapely" href="#">Shapely Demo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/aboutthetests.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              ABOUT THE TESTS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="aboutthetests.html">Page image alignment</a>
+              <a class="dropdown-item" href="#">Page markup and formating</a>
+              <a class="dropdown-item" href="#">Clearing floats</a>
+              <a class="dropdown-item" href="#">Page width comments</a>
+
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="level.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              LAVEL 1
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item dropdown-toggle" href="#">Lavel 2</a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="dropdown-item" href="#">Level 3</a>
+                <a class="dropdown-item" href="#">Level 3a</a>
+                <a class="dropdown-item" href="#">Level 3b</a>
+              </div>
+
+              <a class="dropdown-item" href="level.html">Lavel 2a</a>
+              <a class="dropdown-item" href="#">Lavel 2b</a>
+
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="shop.html" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              SHOP
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="shop.html">Lavel 2a</a>
+              <a class="dropdown-item" href="#">Lavel 2b</a>
+
+            </div>
+          </li>
+
+        </ul>
+        <!-- Side Modal Top Right -->
+
+        <!-- Button trigger modal -->
+        <button id="search" type="button" class="btn btn-primary" data-toggle="modal" data-target="#sideModalTR">
+          Search
+        </button>
+
+        <!-- To change the direction of the modal animation change .right class -->
+        <div class="modal fade right" id="sideModalTR" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+          aria-hidden="true">
+
+          <!-- Add class .modal-side and then add class .modal-top-right (or other classes from list above) to set a position to the modal -->
+          <div class="modal-dialog modal-side modal-top-right" role="document">
+
+
+            <div id="modall" class="modal-content right">
+              <div class="modal-header">
+                <h4 class="modal-title w-100" id="myModalLabel">Ma`lumot kiriting</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-footer">
+                <input type="text" class="">
+                <button type="button" data-dismiss="modal" class="btn btn-primary">Search</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Side Modal Top Right -->
+        <!-- <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="sectionhead">
+      <div class="section">
+        <h1>We Change Everything WordPress</h1>
+        <p>This is the only WordPress theme you will ever want to use.</p>
+        <div class="rdbutton">
+          <button class="buttonread">READ MORE</button>
+          <button class="buttondownload">DOWNLOAD NOW</button>
+        </div>
+      </div>
+    </div>
+    <div class="container section_a">
+      <img class="col-lg-6 section_a_left" width='452px' src="img/home/section_a.png" alt="">
+      <div class="col-lg-6 section_a_right">
+        <h1>SEO Friendly</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ipsa quae. Unde obcaecati fugit enim
+          mollitia repellendus quisquam, accusantium dicta magnam culpa rerum earum cum sed laborum tempore? Officia,
+          ut!</p>
+        <button class="buttonread">READ MORE</button>
+      </div>
+    </div>
+    <div class="container-fluid section_b">
+      <div class="container section_b">
+        <div class="col-lg-4 section_b_left">
+          <h1>Portfolio Section</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ipsa quae. Unde obcaecati fugit enim
+            mollitia repellendus quisquam, accusantium dicta magnam culpa rerum earum cum sed laborum tempore? Officia,
+            ut!</p>
+          <button class="buttonread">READ MORE</button>
+        </div>
+        <img class="col-lg-8 section_b_right" width='452px' src="img/home/section_b.png" alt="">
+      </div>
+    </div>
+    <div class="container-fluid section_c">
+      <h1>Small Parallax Section</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ipsum sit, nemo repellendus excepturi
+        assumenda
+        pariatur possimus quidem at mollitia atque officia, sed expedita facere fugit cupiditate nesciunt similique
+        tempora.</p>
+      <button class="buttonread">READ MORE</button>
+    </div>
+    <div class="section_d">
+      <h1 class="d">Limitless Options</h1>
+      <p class="d"> Phasellus sed nisi ac dui interdum semper. Etiam consequat fermentum sollicitudin. Fusce vulputate
+        porta faucibus. <br>
+        Vivamus nulla tellus, accumsan non efficitur id, pretium quis ante</p>
+      <button class="buttonread d">DOWNLOAD NOW</button>
+      <img class="d" src="/img/home/section_d.jpg" alt="">
+    </div>
+    <div class="container-fluid section_e">
+      <div class="section_e_text">
+        <h1>Our Latest Projects</h1>
+        <h5>Here is our latest projects. You'll love them!</h5>
+      </div>
+    </div>
+
+    <div class="section_f" style="margin-left: -15px">
+      <div class="coll-3 col-xl-3 col-sm-12" id="s11" >
+        <img class="s1" id="s1" src="img/home/section_f/1.jpg" alt="">
+        <div class="p1">
+          <div class="overlay">Projekt #1</div>
+        </div>
+      </div>
+      <div class="coll-3 col-xl-3 col-sm-12" id="s11">
+        <img class="s2" id="s1" src="img/home/section_f/2.jpg" alt="">
+        <div class="overlay">Projekt #2</div>
+      </div>
+      <div class="coll-3 col-xl-3 col-sm-12" id="s11">
+        <img class="s3" id="s1" src="img/home/section_f/3.jpg" alt="">
+        <div class="overlay">Projekt #3</div>
+      </div>
+      <div class="coll-3 col-xl-3 col-sm-12" id="s11">
+        <img class="s4" id="s1" src="img/home/section_f/4.jpg" alt="">
+        <div class="overlay">Projekt #4</div>
+      </div>
+      <div class="coll-3 col-xl-3 col-sm-12" id="s11">
+        <img class="s5" id="s1" src="img/home/section_f/5.jpg" alt="">
+        <div class="overlay">Projekt #5</div>
+      </div>
+      <div class="coll-3 col-xl-3 col-sm-12" id="s11">
+        <img class="s6" id="s1" src="img/home/section_f/6.jpg" alt="">
+        <div class="overlay">Projekt #6</div>
+      </div>
+      <div class="coll-3 col-xl-3 col-sm-12" id="s11">
+        <img class="s7" id="s1" src="img/home/section_f/7.jpg" alt="">
+        <div class="overlay">Projekt #7</div>
+      </div>
+      <div class="coll-3 col-xl-3 col-sm-12" id="s11">
+        <img class="s8" id="s1" src="img/home/section_f/8.jpg" alt="">
+        <div class="overlay">Projekt #8</div>
+      </div>
+      <div class="coll-3 col-xl-3 col-sm-12" id="s11">
+        <img class="s9" id="s1" src="img/home/section_f/9.jpg" alt="">
+        <div class="overlay">Projekt #9</div>
+      </div>
+      <div class="coll-3 col-xl-3 col-sm-12" id="s11">
+        <img class="s10" id="s1" src="img/home/section_f/10.jpg" alt="">
+        <div class="overlay">Projekt #10</div>
+      </div>
+      <div class="coll-3 col-xl-3 col-sm-12" id="s11">
+        <img class="s11" id="s1" src="img/home/section_f/11.jpg" alt="">
+        <div class="overlay">Projekt #11</div>
+      </div>
+      <div class="coll-3 col-xl-3 col-sm-12" id="s11">
+        <img class="s12" id="s1" src="img/home/section_f/12.jpg" alt="">
+        <div class="overlay">Projekt #12</div>
+      </div>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="height: 200px;">
+            <div style="display: flex; justify-content: center; align-items: center;">
+            <img style="max-width: 17%; height: 150px; border-radius: 100%;" class="d-block w-100" src="img/home/section_g/slide_11.jpg" alt="First slide">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="title">What Our Customers Say</h5>
+              <p id="title-p">Nunc sit amet lobortis nulla. Nunc ullamcorper, mi id luctus dictum, augue tortor dictum ipsum, nec
+                congue arcu lorem in nisl. Duis neque lacus, viverra non mauris ac, pharetra rhoncus libero. Aliquam
+                varius viverra ex, in venenatis magna ornare sit amet. Integer varius sit amet turpis eu ullamcorper.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div style="display: flex; justify-content: center; align-items: center;">
+            <img  style="max-width: 17%; height: 150px; border-radius: 100%;" class="d-block w-100" src="img/home/section_g/slide_11.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5 id="title">What Our Customers Say</h5>
+              <p id="title-p">Nunc sit amet lobortis nulla. Nunc ullamcorper, mi id luctus dictum, augue tortor dictum ipsum, nec
+                congue arcu lorem in nisl. Duis neque lacus, viverra non mauris ac, pharetra rhoncus libero. Aliquam
+                varius viverra ex, in venenatis magna ornare sit amet. Integer varius sit amet turpis eu ullamcorper.
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </section>
+  <div class="container-fluid">
+    <div class="row footer-top">
+      <h1>Do you like this awesome WordPress theme?</h1>
+      <div class="rdbutton" style="padding-left: 5%;">
+        <button class="buttonread">DOWNLOAD NOW</button>
+      </div>
+    </div>
+  </div>
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-6">
+        <div class="row">
+          <h4>Theme by Colorlib Powered by WordPress</h4>
+        </div>
+      </div>
+      <div class="col-6" id="foot-logo">
+        <div class="foot-logo">
+          <a href="https://facebook.com/"><img src="img/footer/logo/facebook.png" alt=""></a>
+          <a href="https://twitter.com/"><img src="img/footer/logo/tvitter.png" alt=""></a>
+          <a href="https://linkedin.com/"><img src="img/footer/logo/linkedin.png" alt=""></a>
+          <a href="https://youtube.com/"><img src="img/footer/logo/youtube.png" alt=""></a>
+          <a href="https://instagram.com/"><img src="img/footer/logo/instagram.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popover.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

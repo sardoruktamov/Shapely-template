@@ -1,0 +1,38 @@
+.overlay {
+    position: absolute; 
+    bottom: 0px; 
+    background: rgba(0, 0, 0, 0.5); 
+     color: #f1f1f1; 
+    width: 95%;
+    transition: 0.5s ease;
+    color: white;
+    font-size: 20px;
+    /* padding-top: 250px; */
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+  }
+  
+  .section_f .col-3:hover .overlay {
+    opacity: 1;
+  }
+  #s21{
+    height: 250px;
+    width: 700px;
+  }
+  .section_f .col-3 img{
+      padding: 0px;
+      margin: 0px;
+      height: 100%;
+      width: 100%;
+  }
+  #s22{
+      display: block;
+      width: 500px;
+  }
+  #portfolio-footer{
+      margin-top: 50px;
+  }
